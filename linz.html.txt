@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Výlet do Lince</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fdfdfd;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0066cc;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        main h2 {
+            margin-top: 0;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Plán výletu do Lince</h1>
+    </header>
+    <main>
+        <h2>Plán dne:</h2>
+        <p><strong>08:00:</strong> Odjezd z Prahy, pohodlným autobusem.</p>
+        <p><strong>10:30:</strong> Příjezd do Lince, uvítání průvodcem.</p>
+        <p><strong>11:00:</strong> Prohlídka historického centra, návštěva náměstí Hauptplatz a Pöstlingbergu.</p>
+        <p><strong>13:00:</strong> Oběd v místní restauraci.</p>
+        <p><strong>14:30:</strong> Volný čas na nákupy nebo individuální prohlídku.</p>
+        <p><strong>16:00:</strong> Návštěva Ars Electronica Center (muzeum budoucnosti).</p>
+        <p><strong>18:00:</strong> Odjezd zpět do Prahy.</p>
+        <p><strong>20:30:</strong> Příjezd do Prahy.</p>
+    </main>
+    <footer>
+        &copy; 2024 Cestovní kancelář. Všechna práva vyhrazena.
+    </footer>
+</body>
+</html>
