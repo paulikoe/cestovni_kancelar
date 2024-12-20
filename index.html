@@ -4,6 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Výběr cíle cesty</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #e8f5e9, #a5d6a7);
+            color: #2e7d32;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #388e3c;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: #388e3c;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            margin: 10px;
+            font-size: 1.2em;
+            border-radius: 8px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        button:hover {
+            background-color: #2e7d32;
+            transform: scale(1.05);
+        }
+
+        #otherChoice {
+            margin-top: 20px;
+        }
+
+        #otherChoice button {
+            background-color: #81c784;
+        }
+
+        #otherChoice button:hover {
+            background-color: #66bb6a;
+        }
+    </style>
     <script>
         function openPage(destination) {
             if (destination === 'Linz') {
