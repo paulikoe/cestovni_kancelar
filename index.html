@@ -9,6 +9,8 @@
             font-family: 'Arial', sans-serif;
             background: url('Kuba2.jpg') no-repeat center center fixed; /* Nastavení obrázku jako pozadí */
             background-size: cover; /* Obrázek se přizpůsobí velikosti obrazovky */
+            background-position: center;
+            position: relative;
             color: #ffffff;
             margin: 0;
             padding: 0;
@@ -18,6 +20,18 @@
             justify-content: center;
             height: 100vh;
             text-align: center;
+        }
+
+        /* Tmavý přechod pro pozadí */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.4); /* Mírné ztmavení */
+            z-index: -1; /* Ujistíme se, že se přechod bude zobrazovat pod textem */
         }
 
         h1 {
